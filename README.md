@@ -8,6 +8,7 @@ deanonymize.
 
 * h12.me/socks - For the Tor SOCKS Proxy connection.
 * github.com/xiam/exif - For EXIF data extraction.
+* github.com/mvdan/xurls - For some URL parsing.
 
 ## OS Package Dependencies
 
@@ -58,7 +59,7 @@ This [should not be news](http://arstechnica.com/security/2016/02/default-settin
 * Determine your IP address if your setup allows.
 * Determine other sites you are co-hosting.
 * Determine how active your site it.
-* Find secret or hiddenn areas of your site
+* Find secret or hidden areas of your site
 * and much, much more.
 
 Seriously, don't even run the tool, go to your site and check if you have `/server-status`
@@ -83,7 +84,7 @@ or their users at risk of deanonymization.
 ## Server Fingerprint
 
 Sometimes, even without mod_status we can determine if two sites are hosted on
- the sam infrastructure. We can use the following attributes to make this distinction:
+ the same infrastructure. We can use the following attributes to make this distinction:
 
 * Server HTTP Header
 * Technology Stack (e.g. php, jquery version etc.)
